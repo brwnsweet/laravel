@@ -9,4 +9,5 @@ class siswa extends Model
     //
     //Tentukan nama tabel
     protected $table = "siswa";//nama tabel yg sesuia dengan model
+    protected $fillable = ["nis","nama","alamat","foto"];
 }

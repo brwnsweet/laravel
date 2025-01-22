@@ -19,6 +19,6 @@ class GuruController extends Controller
     function detail($id) {
        //return "<h1>SAYA GURU dari controller ID $id DENGAN NAMA $nama</h1>";
        $data=kelas::where('id',$id)->first();
-    return view('kelas/detail')->with('data',$data);
+       return view('kelas/detail')->with('data',$data);
 }
 }
